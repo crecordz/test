@@ -1,0 +1,6 @@
+.header__dropdown_show-dropdown {
+  display: flex;
+  background-color: rgba(19, 19, 19, 1);
+  border-radius: 0 0 15px 15px;
+  border: 1px solid #656565;
+}

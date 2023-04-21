@@ -1,0 +1,14 @@
+.header__dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  z-index: 1;
+  color: white;
+  border-radius: 0 0 15px 15px;
+  width: 100%;
+  margin: 0;
+  padding: 7px 7px 10px 7px;
+  box-sizing: border-box;
+}

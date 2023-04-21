@@ -1,0 +1,10 @@
+.intro {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  display: grid;
+  grid-template-columns: 166px 1fr 727px;
+  grid-template-rows: repeat(3, auto);
+  padding-top: 73px;
+}

@@ -1,0 +1,19 @@
+.founders__dick {
+  background-image: url("../../../images/dick.png");
+  max-width: 919px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.80550098;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-right: 1px solid #646464;
+  box-sizing: border-box;
+  position: relative;
+  filter: brightness(0.15) grayscale(100%);
+  transition: filter 0.3s ease-in;
+}
+
+.founders__dick:hover {
+  filter: brightness(1);
+}

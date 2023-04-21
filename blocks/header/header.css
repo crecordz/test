@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url("../../images/noise.png");
+  z-index: 1;
+  height: 73px;
+  max-width: 1838px;
+  margin: 0 auto !important;
+  border-bottom: 1px solid #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}

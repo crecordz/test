@@ -1,0 +1,19 @@
+.founders__parapraph {
+  width: 100%;
+  min-height: 259px;
+  max-width: 919px;
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  color: white;
+  box-sizing: border-box;
+  border-right: 1px solid #646464;
+  padding: 41px 40px 99px 40px;
+}
+
+.founders__parapraph:last-of-type {
+  border-right: none;
+}

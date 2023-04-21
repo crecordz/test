@@ -1,0 +1,13 @@
+.header__dropbtn {
+  border: none;
+  max-width: 208px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0);
+  color: white;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  box-sizing: border-box;
+  height: 34px;
+}

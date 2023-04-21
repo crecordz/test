@@ -1,0 +1,11 @@
+.header__link {
+  list-style-type: none;
+  padding: 4px 12px 6px 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.header__link:hover {
+  background: #212124;
+  border-radius: 20px;
+}

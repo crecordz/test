@@ -1,0 +1,12 @@
+.intro__model {
+  max-width: 724px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 0.90119047;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  grid-row: span 2;
+}

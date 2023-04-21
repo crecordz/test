@@ -1,0 +1,9 @@
+.intro__pict {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 0.78;
+  position: relative;
+  top: -86px;
+}

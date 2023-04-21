@@ -1,0 +1,16 @@
+.header__logo {
+  background-image: url("../../../images/evr.svg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+  max-width: 170px;
+  height: 35px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 32.5px;
+  background-color: #131313;
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin: 0 auto;
+}

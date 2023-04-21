@@ -1,0 +1,10 @@
+.intro__div-paragraph {
+  grid-column: 1 / 3;
+  padding-top: 58px;
+  border-right: 1px solid #646464;
+  min-height: 414px;
+  box-sizing: border-box;
+  max-width: 1111px;
+  width: 100%;
+  padding-bottom: 158px;
+}
