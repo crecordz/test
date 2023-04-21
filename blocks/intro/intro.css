@@ -4,7 +4,9 @@
   font-weight: 500;
   color: white;
   display: grid;
-  grid-template-columns: 166px 1fr 727px;
+  grid-template-columns: calc(166 * 100% / 1838) calc(945 * 100% / 1838) calc(
+      727 * 100% / 1838
+    );
   grid-template-rows: repeat(3, auto);
   padding-top: 73px;
 }

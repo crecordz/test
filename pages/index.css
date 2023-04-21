@@ -31,10 +31,11 @@
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__div-paragraph/intro__div-paragraph.css");
 @import url("../blocks/intro/__pict/intro__pict.css");
+@import url("../blocks/intro/__blink/intro__blink.css");
+@import url("../blocks/intro/__blink/_vertical/intro__blink_vertical.css");
 
 @import url("../blocks/founders/founders.css");
 @import url("../blocks/founders/__dick/founders__dick.css");
 @import url("../blocks/founders/__first/founders__first.css");
 @import url("../blocks/founders/__depp/founders__depp.css");
-@import url("../blocks/founders/__second/founders__second.css");
 @import url("../blocks/founders/_paragraph/founders__parapraph.css");

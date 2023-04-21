@@ -1,0 +1,23 @@
+.intro__blink_vertical {
+  rotate: 90deg;
+  left: -22px;
+  animation: down 8s ease-in-out infinite;
+}
+
+@keyframes down {
+  0% {
+    top: -166px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  32% {
+    opacity: 0;
+  }
+  40%,
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
