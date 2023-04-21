@@ -33,9 +33,12 @@
 @import url("../blocks/intro/__pict/intro__pict.css");
 @import url("../blocks/intro/__blink/intro__blink.css");
 @import url("../blocks/intro/__blink/_vertical/intro__blink_vertical.css");
+@import url("../blocks/intro/__blink/_depp/intro__blink_depp.css");
 
 @import url("../blocks/founders/founders.css");
 @import url("../blocks/founders/__dick/founders__dick.css");
 @import url("../blocks/founders/__first/founders__first.css");
 @import url("../blocks/founders/__depp/founders__depp.css");
 @import url("../blocks/founders/_paragraph/founders__parapraph.css");
+@import url("../blocks/founders/__dick/_ligth/founders__dick_light.css");
+@import url("../blocks/founders/__depp/_light/founders__depp_light.css");

@@ -1,17 +1,13 @@
 .founders__depp {
-  background-image: url("../../../images/depp.png");
+  background-image: url("../../../images/depp_dark.png");
   max-width: 919px;
   width: 100%;
   height: auto;
   aspect-ratio: 1.80550098;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: center;
   background-position: center;
   object-fit: contain;
-  filter: brightness(0.15) grayscale(100%);
-  transition: filter 0.3s ease-in;
-}
-
-.founders__depp:hover {
-  filter: brightness(1);
+  transition: all 0.3s ease-in;
+  position: relative;
 }
