@@ -9,7 +9,7 @@
   padding-bottom: 9px;
   box-sizing: border-box;
   height: 34px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in;
   position: relative;
 }
 
@@ -27,7 +27,7 @@
   height: 0;
   border: 1px solid #656565;
   border-radius: 15px;
-  transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease;
   box-sizing: border-box;
 }
 

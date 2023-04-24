@@ -15,3 +15,15 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
+
+@media (max-width: 1920px) {
+  .header {
+    max-width: calc(1838 * 100% / 1920);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-width: 942px;
+  }
+}

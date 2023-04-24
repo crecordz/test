@@ -10,3 +10,16 @@
   grid-template-rows: repeat(3, auto);
   padding-top: 73px;
 }
+
+@media (max-width: 1920px) {
+  .intro {
+    max-width: calc(1838 * 100% / 1920);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+}
