@@ -1,0 +1,23 @@
+.founders__flying-tube {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 12px;
+  background: linear-gradient(180deg, #424242 0%, rgba(50, 50, 50, 0) 100%);
+  animation: move3 2.5s linear infinite;
+}
+
+@keyframes move3 {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    bottom: 60%;
+    opacity: 0;
+  }
+}

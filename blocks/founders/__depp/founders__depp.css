@@ -11,3 +11,7 @@
   transition: all 0.3s ease-in;
   position: relative;
 }
+
+.founders__depp:hover .founders__flying-tube {
+  animation: move3 1s linear infinite;
+}
