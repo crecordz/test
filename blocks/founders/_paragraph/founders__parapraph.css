@@ -11,9 +11,11 @@
   color: white;
   box-sizing: border-box;
   border-right: 1px solid #646464;
-  padding: 41px 40px 99px 40px;
+  padding: 41px 0 99px 0;
 }
 
 .founders__parapraph:last-of-type {
   border-right: none;
+  padding-left: 40px;
+  padding-right: 40px;
 }

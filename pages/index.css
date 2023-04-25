@@ -44,3 +44,8 @@
 @import url("../blocks/founders/__dick/_ligth/founders__dick_light.css");
 @import url("../blocks/founders/__depp/_light/founders__depp_light.css");
 @import url("../blocks/founders/__flying-tube/founders__flying-tube.css");
+@import url("../blocks/founders/__name/founders__name.css");
+@import url("../blocks/founders/__job/founders__job.css");
+@import url("../blocks/padding/padding.css");
+@import url("../blocks/founders/__line/founders__line.css");
+@import url("../blocks/founders/__name/_red/founders__name_red.css");

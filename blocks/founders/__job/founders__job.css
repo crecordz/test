@@ -1,0 +1,15 @@
+.founders__job {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Druk Wide Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 0.7em;
+  position: relative;
+  text-transform: uppercase;
+  padding-left: 40px;
+  margin-top: 12px;
+}

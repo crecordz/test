@@ -69,12 +69,28 @@ function closeDropDown(event) {
   });
 }
 
-function dickToLight() {
-  dick.classList.toggle("founders__dick_light");
+function dickToLight(event) {
+  dick.classList.add("founders__dick_light");
+  const currentName = event.currentTarget.querySelector(".founders__name");
+  currentName.classList.add("founders__name_red");
 }
 
-function deppToLight() {
-  depp.classList.toggle("founders__depp_light");
+function dickToDark(event) {
+  dick.classList.remove("founders__dick_light");
+  const currentName = event.currentTarget.querySelector(".founders__name");
+  currentName.classList.remove("founders__name_red");
+}
+
+function deppToLight(event) {
+  depp.classList.add("founders__depp_light");
+  const currentName = event.currentTarget.querySelector(".founders__name");
+  currentName.classList.add("founders__name_red");
+}
+
+function deppToDark(event) {
+  depp.classList.remove("founders__depp_light");
+  const currentName = event.currentTarget.querySelector(".founders__name");
+  currentName.classList.remove("founders__name_red");
 }
 
 dropDown.forEach((item) => {
@@ -85,7 +101,7 @@ dropDown.forEach((item) => {
 });
 
 dick.addEventListener("mouseover", dickToLight);
-dick.addEventListener("mouseleave", dickToLight);
+dick.addEventListener("mouseleave", dickToDark);
 
 depp.addEventListener("mouseover", deppToLight);
-depp.addEventListener("mouseleave", deppToLight);
+depp.addEventListener("mouseleave", deppToDark);

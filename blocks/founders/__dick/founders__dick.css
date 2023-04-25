@@ -12,6 +12,7 @@
   position: relative;
   transition: all 0.3s ease-in;
   z-index: 2;
+  position: relative;
 }
 
 .founders__dick:hover .founders__flying-tube {
