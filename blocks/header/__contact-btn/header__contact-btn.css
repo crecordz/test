@@ -27,11 +27,12 @@
   height: 0;
   border: 1px solid #656565;
   border-radius: 15px;
-  transition: width 0.5s ease;
+  /* transition: width 0.5s ease; */
   box-sizing: border-box;
 }
 
 .header__contact-btn:hover::before {
   width: 100%;
   height: 100%;
+  -webkit-transition: width 0.5s ease;
 }

@@ -28,9 +28,9 @@
     #ffffff 0%,
     rgba(50, 50, 50, 0) 100%
   );
-  transition: width 0.4s;
 }
 
 .intro__underscore:hover::after {
   width: 100%;
+  -webkit-transition: width 0.3s;
 }
